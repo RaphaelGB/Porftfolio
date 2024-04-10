@@ -1,0 +1,237 @@
+/* Default */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #ffffff;
+ }
+
+ .Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #af7c64;
+    width: 100%;
+    height: 8%;
+ }
+ #text-navbar{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 4px;
+ } 
+ .container-navbar{
+    height: 100%;
+    margin-top: 5px;
+    padding-right: 4%; 
+    padding-left: 3%;
+    padding-top: 3px;
+}
+
+  .img-navbar{
+    height: 80%;
+ }
+ #color-change{
+    color: white;
+ }
+
+ /* Main */
+
+ /*Cover*/
+ .container-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url("../IMG/f_chess.jpeg"); 
+    background-repeat: no-repeat; /*Não repete*/
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#title-cover{
+    margin-top: 13%;
+    display: block;
+    color: white;
+    font-size: 6rem;
+    font-family: "Kaisei Tokumin", sans-serif;
+    border-bottom: 1.5px solid #FFF;
+    border-top: 1.5px solid #FFF;
+    padding-left: 1%;
+}
+
+#img-seta-cover{
+    margin-top: 15%;
+    width: 5%;
+}
+
+/* About me  */
+.container-about{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#title-about{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#title-about > p{
+    font-weight: 500;
+    font-family: "Abel", sans-serif;
+    letter-spacing: 4px;
+    font-size: 48px;
+    border-bottom: 1.5px solid #000;
+    padding-bottom: 0.5px;
+    display: inline;
+}
+#text-about{
+    width: 50%;
+    display: block;
+}
+#text-about>p{
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Inria Sans", 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+#contact-about{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: space-around;
+    align-items: space-around;
+}
+
+#info-contact-about{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+}
+#contact-about>p, #info-contact-about>p{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 24px;
+    font-family: "Inria Sans", 'Times New Roman', Times, serif;
+}
+#contact-about>p{
+    border-bottom: 1px solid #000;
+    font-size: 32px;
+}
+
+/*projects*/
+.container-projects, .container-about{
+    display: flex;
+    background-color: #FFD39E;
+}
+
+
+.container-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background: red; */
+    width: 50%;
+    height: 600px;
+}
+
+.container-project-img{
+    margin-top: 8%;
+    width: 93%;
+    height: 55%;
+    /* background-color: grey; */
+}
+.rating{
+    /* background: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 15%;
+
+}
+ 
+.container-projects-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.title-projects{
+    font-size: 44px;
+    font-family: "Inria Sans", "Inter", sans-serif;
+    text-decoration: solid;
+}
+.text-projects{
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+}
+
+.link-projects{
+    font-size: 20px;
+}
+
+.link-projects>a:active{
+    color: blue;
+}
+
+.project-img-card{
+    border: 1px solid #000;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgba(152, 107, 86, 0.95);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-footer{
+    width: 4%;
+    height: 90%;
+    /* background: blue; */
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+#text-footer{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#github-footer, #linkedin-footer{
+    width:100%;
+}

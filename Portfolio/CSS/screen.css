@@ -1,0 +1,56 @@
+ 
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('../fonts/PressStart2P.ttf') format('truetype');
+    
+} 
+
+*, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    background: #FECF97;    
+    margin: 0;
+    position:  0;
+    background: url(../IMG/fundo_screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#text-button{
+    font-family: 'Press Start 2P', monospace, 'Stencil', sans-serif;
+    font-size: 4rem;
+    color: white;    text-align: center;
+    display: inline;
+    text-align: center;
+    letter-spacing: -11px;
+}
+
+#link-button{
+    text-decoration: none;
+}
+
+#btn-start{
+    background: #6E4A38;
+    padding: 30px;
+    border: #000 solid 12px
+}
+
+#btn-start:hover{
+    cursor: pointer;
+}
+#btn-start:hover > #text-button{
+    color: #000;
+}

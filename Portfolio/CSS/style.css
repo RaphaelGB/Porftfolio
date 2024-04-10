@@ -1,0 +1,155 @@
+/* Default */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background: #FECF97;
+}
+.container{
+    height: 100%;
+    width: 100%; 
+}
+
+/*Navbar*/
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 8%;
+}
+ 
+#container-icolor-change{
+    display: inline-block;
+    margin-left: 3%;
+    padding-bottom: 3px;
+    height: 100%;
+} 
+
+#img-color-change{
+    display: block;
+    height: 100%;
+}
+
+#container-text-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+#text-navbar{
+    padding-left: 17%;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+    letter-spacing: 7px;
+}
+
+#line-navbar{
+    border: none;
+    height: 1px;
+    background: #000000;
+    width: 95%;
+    margin-top: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Main*/
+ .Main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;} 
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#container-cards{
+    margin-left: 3%;
+    width: 65%;
+    height: 90%;
+}
+
+.card{
+    width: 35%;
+    height: 43%;
+}
+
+.img-card{
+    width: 100%;
+    
+}
+
+.img-card:hover{
+    cursor: pointer;
+    /* animation: rotateTabuleiro;
+    animation-duration: 3s; */
+/*
+@keyframes rotateTabuleiro {
+    from {transform: rotateZ(0);}
+    to {transform: rotateZ(360deg);}
+} */
+
+}
+.text-card{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#container-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue;  */
+    width: 28%;
+    height: 70%;
+    margin-top: 4%;
+}
+#container-photo{
+    margin: 5%;
+    width: 80%;
+    height: 70%;
+}
+ #container-text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 90%;
+    height: 10%;
+     /* background: aqua;   */
+}  
+
+#img-photo{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border-right:  14px solid rgb(0,0,0, 0.3);
+    border-bottom: 14px solid  rgb(0, 0, 0, 0.3);
+}
+#name-photo{
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color: #000000;
+}
